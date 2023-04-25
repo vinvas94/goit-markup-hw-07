@@ -130,6 +130,7 @@
 
   .section-hero {
     max-width: 100%;
+    padding-bottom: 108px;
   }
 
   .hero-title {
@@ -156,24 +157,27 @@
     text-align: start;
   }
 
-  .team-cards {
-    flex-basis: calc((100% - 24px) / 2);
-  }
-
   .team-list {
     gap: 64px 24px;
   }
 
-  .footer-page > .container {
-    gap: 72px 24px;
-    flex-direction: row;
+  .footer-container {
     flex-wrap: wrap;
-    align-items: normal;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 94px;
   }
 
   .footer-text {
     max-width: 264px;
     align-items: start;
+    margin-right: 24px;
+    text-align: start;
+  }
+
+  .footer-social {
+    margin-bottom: 102px;
+    align-items: normal;
   }
 
   .send-wrap {
@@ -199,6 +203,25 @@
 
   .social-media-heading {
     text-align: start;
+  }
+
+  .navigation-page {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .navigation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 64px;
+    border-radius: 4px;
+  }
+
+  .content-list {
+    gap: 72px 24px;
+    justify-content: space-between;
   }
 }
 
@@ -226,7 +249,7 @@
 
   .linea-header::after {
     content: "";
-    bottom: -16px;
+    bottom: -32px;
     height: 4px;
     background: #404bbf;
     border-radius: 2px;
@@ -235,8 +258,17 @@
     width: 100%;
   }
 
+  .page-header {
+    padding-bottom: 28px;
+  }
+
   .hero-container {
     max-width: 496px;
+  }
+
+  .section-hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 
   .hero-title {
@@ -286,24 +318,44 @@
     font-size: 20px;
     line-height: 1.2;
   }
-  .footer-page > .container {
-    display: flex;
+
+  .footer-container {
     flex-wrap: nowrap;
-    align-items: stretch;
-    gap: unset;
+    padding-left: 0;
+    align-items: normal;
   }
 
   .footer-text {
     margin-right: 120px;
+    margin-bottom: 0;
   }
 
-  .logo-footer {
-    margin-right: 120px;
+  .footer-social {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 80px;
   }
 
   .media-list {
     flex-wrap: nowrap;
-    margin-right: 80px;
+  }
+
+  .navigation-page {
+    padding-bottom: 120px;
+    padding-top: 96px;
+  }
+
+  .navigation-list {
+    margin-bottom: 72px;
+  }
+
+  .content-list {
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-basis: calc ((100%-48px) / 3); */
+    gap: 40px 24px;
   }
 }
 
