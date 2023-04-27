@@ -137,6 +137,7 @@ body {
   align-items: center;
   background-color: transparent;
   border: transparent;
+  padding: 0;
 }
 
 .modal-icon-open {
