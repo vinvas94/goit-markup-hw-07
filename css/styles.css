@@ -86,6 +86,7 @@ body {
   align-items: center;
   padding: 0 16px;
   margin: 0 auto;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -226,7 +227,6 @@ body {
   display: flex;
   gap: 56px;
   align-items: center;
-  flex-direction: flex-start;
 }
 
 .mob-social-list-item {
@@ -256,7 +256,6 @@ body {
 
 .section-hero {
   display: flex;
-  width: 100%;
   margin: 0 auto;
   padding-top: 112px;
   padding-bottom: 112px;
@@ -285,8 +284,10 @@ body {
 
 .hero-container {
   display: flex;
+  width: 100%;
   flex-direction: column;
   text-align: center;
+  align-items: center;
 }
 
 .hero-title {
@@ -926,7 +927,6 @@ body {
   letter-spacing: 0.04em;
   color: #8e8f99;
   margin-bottom: 4px;
-  font-size: 12px;
 }
 
 .modal-textarea {
